@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,18 +13,18 @@
     <header>
     </header>
     <main>
-      <form class="form" action="https://digital-spectr.com/ac/academy.php" method="post">
-        <h2 class="form-title">
+      <form class="form" action="https://60376bfd5435040017722533.mockapi.io/form" method="post">
+        <h2 class="form__title">
           Задать вопрос
         </h2>
         <div class="form__line">
-          <input placeholder="Фамилия Имя Отчество *" type="text" class="form__input">
+          <input type="text" name="name" class="form__input" placeholder="Фамилия Имя Отчество *" pattern="^[А-Яа-яЁё\s-]+$" required>
         </div>
         <div class="form__line">
-          <input placeholder="Телефон *" type="tel" class="form__input">
+          <input type="tel" name="phone" class="form__input" placeholder="Телефон *" pattern="^[0-9\s+-]+$" required>
         </div>
         <div class="form__line">
-          <input placeholder="Email" type="email" class="form__input">
+          <input type="email" name="email" class="form__input" placeholder="Email" required>
         </div>
         <div class="form__line">
           <input type="submit" class="form__button button" value="Отправить запрос">

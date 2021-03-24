@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-body {
-    font-family: "Roboto", "Arial", sans-serif;
+    font-family: "Roboto", "Arial", sans-serif !important;
 }
 main {
     position: absolute;
@@ -23,7 +21,7 @@ main {
 }
 .form__title {
     color:#3B3D43;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 24px;
     line-height: 20px;
     margin-bottom: 25px;
@@ -34,7 +32,7 @@ main {
     height: 48px;
     width: 100%;
     background: #FFFFFF;
-    padding: 12px 33px 13px 13px;
+    padding: 14px 15px;
     border-radius: 6px;
     outline: 0;
     outline-offset: 0;
@@ -61,12 +59,11 @@ main {
     margin-bottom: 25px;
 }
 .form__button {
-    display: flex;
-    justify-content: center;
     width: 100%;
     height: 48px;
     background: #6979F8;
     border-radius: 6px;
+    padding: 13px 0;
     color: #FFFFFF;
     text-transform: uppercase;
     font-style: normal;

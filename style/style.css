@@ -11,6 +11,8 @@ main {
     transform: translate(-50%, -50%);
 }
 .form {
+    display: flex;
+    flex-direction: column;
     width: 481px;
     height: 392px;
     background: #F7F5F9;
@@ -31,29 +33,32 @@ main {
     line-height: 20px;
     height: 48px;
     width: 100%;
+    font-style: normal;
+	font-weight: normal;
     background: #FFFFFF;
-    padding: 14px 15px;
+    padding: 12px 13px;
     border-radius: 6px;
     outline: 0;
-    outline-offset: 0;
     box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
     box-sizing: border-box;
-    border: 1px solid #FFFFFF
+    border: 2px solid #FFFFFF
 }
 
 .form__input::placeholder {
     color: #D0C9D6;
     font-size: 15px;
     line-height: 20px;
+    font-style: normal;
+	font-weight: normal;
 }
 .form__input:focus {
-    border: 1px solid #854FC8;
+    border: 2px solid #854FC8;
 }
 .form__input:hover {
-    box-shadow: 0 0 0 1px #854FC8;
+    box-shadow: 0 0 0 2px #854FC8;
 }
 .form__button:hover {
-    border: 1px solid #854FC8;
+    border: 2px solid #854FC8;
 }
 .form__line {
     margin-bottom: 25px;
@@ -71,7 +76,6 @@ main {
     font-size: 17px;
     line-height: 22px;  
     outline: 0;
-    outline-offset: 0;
     box-sizing: border-box;
-    border: 1px solid #6979F8
+    border: 2px solid #6979F8
 }
